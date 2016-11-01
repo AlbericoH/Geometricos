@@ -1,0 +1,12 @@
+<resources>
+    <string name="regra_activity_jogo1">Sem repetir, a soma de cada elipse deve ser igual a 6 ou 7.</string>
+    <string name="regra_activity_jogo2">Sem repetir, a soma de cada circunferência deve ser igual a 6 ou 7.</string>
+    <string name="regra_activity_jogo3">Sem repetir, a soma de cada coração deve ser igual a 10 ou 11 ou 12.</string>
+    <string name="regra_activity_jogo4">Sem repetir, a soma de cada triângulo deve ser igual a 8 ou 9 ou 10.</string>
+    <string name="regra_activity_jogo5">Sem repetir, a soma de cada linha deve ser igual a 6 ou 7.</string>
+    <string name="regra_activity_jogo6">Sem repetir, a soma de cada arco deve ser igual a 8 ou 9 ou 10.</string>
+    <string name="regra_activity_jogo7">Sem repetir, a soma de cada círculo deve ser igual a 8 ou 9 ou 10.</string>
+    <string name="regra_activity_jogo8">Sem repetir, a soma de cada círculo deve ser igual a 6 ou 7.</string>
+    <string name="regra_activity_jogo9">Sem repetir, a soma de cada quadrado deve ser igual a 12 ou 13 ou 14 ou 15 ou 16.</string>
+    <string name="regra_activity_jogo10">Sem repetir, a soma de cada face do cubo deve ser igual a 13 ou 14 ou 15 ou 16 ou 17 ou 18 ou 19.</string>
+</resources>

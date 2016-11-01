@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.geometricos.geometricos.Jogo1Activity"
+    android:background="@drawable/plano_fundo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_vertical">
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonVoltar"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/voltar"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonSom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/som"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regra_activity_jogo3"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:id="@+id/relaviteLayout1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/jogo3"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            >
+
+            <Spinner
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/a"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="27dp"
+                />
+
+            <Spinner
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/b"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="156dp"
+                />
+
+            <Spinner
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/c"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="165dp"
+                android:layout_marginLeft="33dp"
+                />
+
+            <Spinner
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/d"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="167dp"
+                android:layout_marginLeft="126dp"
+                />
+
+            <Spinner
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/e"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="167dp"
+                android:layout_marginLeft="250dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10"
+            android:id="@+id/textView1"
+            android:layout_alignBottom="@+id/relaviteLayout1"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout"
+            android:textSize="24sp"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@color/laranja"
+            android:layout_margin="1dp"
+            />
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="11"
+            android:id="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView1"
+            android:layout_toEndOf="@+id/textView1"
+            android:textSize="24sp"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@color/laranja"
+            android:layout_margin="1dp" />
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12"
+            android:id="@+id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:textSize="24sp"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@color/laranja"
+            android:layout_margin="1dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

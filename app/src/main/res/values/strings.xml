@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Geometric</string>
+
+    <string name="regra_activity_jogo1"> Without repeating, the sum of each ellipse should equal 6 or 7.</string>
+    <string name="regra_activity_jogo2"> Without repeating, the sum of each circle must be equal to 6 or 7.</string>
+    <string name="regra_activity_jogo3"> Without repeating, the sum of each heart must be equal to 10 or 11 or 12.</string>
+    <string name="regra_activity_jogo4"> Without repeating, the sum of each triangle must equal 8 or 9 or 10.</string>
+    <string name="regra_activity_jogo5"> Without repeating, the sum of each row should equal 6 or 7.</string>
+    <string name="regra_activity_jogo6"> Without repeating, the sum of each arc shall be equal to 8 or 9 or 10.</string>
+    <string name="regra_activity_jogo7"> Without repeating, the sum of each circle must be equal to 8 or 9 or 10.</string>
+    <string name="regra_activity_jogo8"> Without repeating, the sum of each circle must be equal to 6 or 7.</string>
+    <string name="regra_activity_jogo9"> Without repeating, the sum of each square must be equal to 12 or 13 or 14 or 15 or 16.</string>
+    <string name="regra_activity_jogo10"> Without repeating, the sum of each face of the cube should be equal to 13 or 14 or 15 or 16 or 17 or 18 or 19.</string>
+
+</resources>
